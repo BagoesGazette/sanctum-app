@@ -17,10 +17,10 @@ use PHP^8 and Mysql installed on your local machine!!!
 - Clone from the repository
 - Open the project dir
 - Run `composer install`
-- cp .env.example .env
-- php artisan key:generate
-- php artisan migrate --seed
-- php artisan storage:link
+- `cp .env.example .env`
+- `php artisan key:generate`
+- `php artisan migrate --seed`
+- `php artisan storage:link`
 
 ## License
 
